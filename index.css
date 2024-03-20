@@ -24,12 +24,12 @@
 
 }
 
-.hero
+.hero img
 {
-    background-image: url(./assets/images/image-omelette.jpeg);
-    border-radius: 20px;
-    background-color: aliceblue;
-    height: 400px;
+  width: 100%;
+  height: 400px;
+object-fit: cover;
+  border-radius: 20px;
 }
 
 .container2
@@ -88,6 +88,7 @@ ul li
 {
     padding: 10px 10px;
     line-height: 1;
+    font-family: "Outfit", sans-serif;
 }
 
 .container4
@@ -112,6 +113,7 @@ h2
 ul
 {
   padding: 0px 30px;
+  
 }
 hr{
     color: #eee;
@@ -132,6 +134,7 @@ ol li
 {
     padding: 10px 10px;
     line-height: 1.2;
+    font-family: "Outfit", sans-serif;
 }
 
 .container6
@@ -155,6 +158,7 @@ table tr td
 {
     padding: 15px 15px;
     border-bottom:1px solid #eee ;
+    font-family: "Outfit", sans-serif;
 }
 #qunt{
     color: #744d46 ;
@@ -162,3 +166,58 @@ table tr td
     font-size: 18px;
 }
 
+
+/* mobile  */
+
+
+@media(max-width:600px){
+
+    .main{
+        padding: 0;
+    }
+    .container
+    {
+        border-radius: 0px;
+        padding: 0px ;
+    }
+    .main_Container
+    {
+        padding: 30px ;
+    }
+    .hero img
+    {
+        border-radius: 0px;
+        height: 200px;
+    }
+  h1
+  {
+     font-size: 30px;
+     line-height: 1.2;
+     margin-bottom: 10px;
+     margin-top: 0px;
+     font-weight: 700;
+  }
+  p
+  {
+      font-size: 16px;
+      line-height: 1.5;
+  }
+  h3{
+    font-size: 25px;
+    line-height: 1.2;
+    font-weight: 400;
+  }
+  h2{
+    font-size: 20;
+    line-height: 1;
+    font-weight: 500;
+  }
+  ol li {
+    font-size: 18px;
+    line-height: 1.2;
+  }
+  ul li {
+    font-size: 18px;
+    line-height: 1.2;
+  }
+}
