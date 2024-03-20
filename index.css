@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    
+}
+
+.main
+{
+    padding: 50px 100px;
+    background-color: bisque;
+
+}
+
+.container
+{
+
+    padding: 30px 30px;
+    background-color: white;
+    border-radius: 25px;
+
+}
+
+.hero
+{
+    background-image: url(./assets/images/image-omelette.jpeg);
+    border-radius: 20px;
+    background-color: aliceblue;
+    height: 400px;
+}
+
+.container2
+{
+   padding: 0px 0px;
+   background-color: white;
+}
+
+h1
+{
+    padding: 20px 20px;
+    text-align: left;
+    font-size: 45px;
+    font-weight: 500;
+   
+    font-family: "Young Serif", serif;
+   
+}
+
+p
+{
+
+  padding: 0px 20px;
+  font-size: 18px;
+  font-weight: 400;
+  /* font-family: "Young Serif", serif; */
+  font-family: "Outfit", sans-serif;
+}
+
+.container3
+{
+    padding: 40px 40px;
+    margin-top: 30px;
+    background-color: beige;
+    border-radius: 20px ;
+    border: 2px solid #eee;
+}
+
+h2
+{
+
+    text-align: left;
+    font-size: 35px;
+    font-weight: 400;
+    font-family: "Young Serif", serif;
+    color:#641f3c ;
+   
+}
+
