@@ -11,7 +11,7 @@
 .main
 {
     padding: 50px 100px;
-    background-color: bisque;
+    background-color: #f3e5d8;
 
 }
 
@@ -40,11 +40,12 @@
 
 h1
 {
-    padding: 20px 20px;
+    padding: 20px auto;
+    margin-top: 20px;
     text-align: left;
     font-size: 45px;
     font-weight: 500;
-   
+    color: #363533;
     font-family: "Young Serif", serif;
    
 }
@@ -52,30 +53,112 @@ h1
 p
 {
 
-  padding: 0px 20px;
+   padding: 20px auto;
   font-size: 18px;
   font-weight: 400;
   /* font-family: "Young Serif", serif; */
   font-family: "Outfit", sans-serif;
+  color: #363533;
+  text-align: left;
 }
 
 .container3
 {
     padding: 40px 40px;
     margin-top: 30px;
-    background-color: beige;
+    background-color:#fff7fc;
     border-radius: 20px ;
     border: 2px solid #eee;
 }
 
-h2
+h3
 {
 
     text-align: left;
-    font-size: 35px;
-    font-weight: 400;
-    font-family: "Young Serif", serif;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Outfit", sans-serif;
     color:#641f3c ;
+    line-height: 1;
+    margin-bottom: 20px;
    
+}
+   
+ul li
+{
+    padding: 10px 10px;
+    line-height: 1;
+}
+
+.container4
+{
+    padding: 20px auto;
+    margin-top: 30px;
+    
+}
+
+h2
+{
+    text-align: left;
+    font-size: 36px;
+    font-weight: 500;
+    font-family: "Young Serif", serif;
+    line-height: 1;
+    margin-bottom: 25px;
+    color:#894834;
+    
+}
+
+ul
+{
+  padding: 0px 30px;
+}
+hr{
+    color: #eee;
+    margin-top: 30px;
+}
+
+.container5
+{
+   
+    padding: 20px auto;
+    margin-top: 30px;
+}
+
+ol{
+    padding: 0px 30px;
+}
+ol li
+{
+    padding: 10px 10px;
+    line-height: 1.2;
+}
+
+.container6
+{
+    padding: 20px auto;
+    margin-top: 30px;  
+}
+
+table
+{
+   padding: 15px 15px;
+   width: 100%;
+}
+table tr
+{
+   padding: 0px auto;
+   margin-bottom: 20px
+}
+
+table tr td 
+{
+    padding: 15px 15px;
+    border-bottom:1px solid #eee ;
+}
+#qunt{
+    color: #744d46 ;
+    font-weight: bolder;
+    font-size: 18px;
 }
 
